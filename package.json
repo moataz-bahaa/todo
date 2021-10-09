@@ -1,5 +1,5 @@
 {
-  "homepage": "https://MoatazBahaa.github.io/react-redux-todo",
+  "homepage": "https://moataz-bahaa.github.io/react-redux-todo",
   "name": "todo-app",
   "version": "0.1.0",
   "private": true,
@@ -17,8 +17,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
